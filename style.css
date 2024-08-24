@@ -1,3 +1,80 @@
-.header{
-  color: pink;
+
+body {
+  display: flex;
+  flex-direction: row;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:  rgb(71, 33, 33);
+  font-family: serif, Inconsolata, "PT Serif"; 
+  font-weight: bold;
+  
+  
+}
+/*
+.fb {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.up {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.go {
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+} */
+.sideR {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background-color:rgb(223, 168, 102);
+  flex: 3;
+}
+.childR {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  
+}
+.sideL {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 200px;
+  flex: 1;
+  background-color: rgb(71, 33, 33);
+}
+.inventory {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: rgb(223, 168, 102);
+}
+.socials {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: rgb(223, 168, 102);
+}
+.btn {
+  display: flex;
+  border-radius: 10px;
+  background-color: rgb(233, 204, 160);
+  color:  rgb(71, 33, 33); 
+  font-size: large;
+  font-weight: bold;
 }
